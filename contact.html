@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Wayfarer</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header"><a class="brand" href="index.html"><span
+                class="brand-mark">W</span><span>wayfarer<small>TRAVEL & TOURS</small></span></a><button
+            class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="primary-navigation"
+            aria-expanded="false">☰</button>
+        <nav class="nav" id="primary-navigation" aria-label="Main navigation"><a href="index.html">Home</a><a
+                href="destinations.html">Destinations</a><a href="packages.html">Packages</a><a
+                href="travel-blog.html">Travel journal</a><a class="nav-cta" href="booking.html">Plan a trip <span
+                    aria-hidden="true">↗</span></a></nav>
+    </header>
+    <main>
+        <section class="page-hero">
+            <p class="eyebrow">WE'D LOVE TO HEAR FROM YOU</p>
+            <h1>Let's talk<br><em>about somewhere.</em></h1>
+            <p>Questions, ideas or a trip taking shape? Drop us a note.</p>
+        </section>
+        <section class="section contact-layout">
+            <div>
+                <p class="eyebrow">SAY HELLO</p>
+                <h2>Good journeys<br>begin with <em>a conversation.</em></h2>
+                <p>Our team is here to help you think through the details and find a trip that feels like yours.</p>
+                <div class="contact-detail"><small>EMAIL</small><b>hello@wayfarer.example</b></div>
+                <div class="contact-detail"><small>PHONE</small><b>+91 98765 43210</b></div>
+                <div class="contact-detail"><small>OFFICE HOURS</small><b>Monday – Saturday, 10 AM – 6 PM</b></div>
+            </div>
+            <form class="contact-form card-panel" id="contact-form" novalidate>
+                <h3>Send a message</h3>
+                <div class="field"><label for="contact-name">Name *</label><input id="contact-name" required
+                        placeholder="Your name"></div>
+                <div class="field"><label for="contact-email">Email *</label><input id="contact-email" type="email"
+                        required placeholder="you@example.com"></div>
+                <div class="field"><label for="contact-message">Message *</label><textarea id="contact-message" rows="5"
+                        required placeholder="How can we help?"></textarea></div>
+                <p class="form-error" id="contact-error" role="alert"></p><button class="button button-dark"
+                    type="submit">Send message ↗</button>
+                <div class="success-message" id="contact-success" role="status" hidden>Thanks for reaching out. This
+                    demo has recorded your message.</div>
+                <p class="form-note">Demo form for academic use. No information is sent to a server.</p>
+            </form>
+        </section>
+    </main>
+    <footer class="footer"><a class="brand brand-footer" href="index.html"><span
+                class="brand-mark">W</span><span>wayfarer<small>TRAVEL & TOURS</small></span></a>
+        <p>Make room for somewhere new.</p>
+        <div><a href="contact.html">Contact</a><a href="booking.html">Plan a trip</a><a
+                href="travel-blog.html">Journal</a><a href="about.html">About</a></div><small>© 2026 Wayfarer Travel. A
+            student website project.</small>
+    </footer>
+</body>
+
+</html>

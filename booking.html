@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan a Trip | Wayfarer</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header"><a class="brand" href="index.html"><span
+                class="brand-mark">W</span><span>wayfarer<small>TRAVEL & TOURS</small></span></a><button
+            class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="primary-navigation"
+            aria-expanded="false">☰</button>
+        <nav class="nav" id="primary-navigation" aria-label="Main navigation"><a href="index.html">Home</a><a
+                href="destinations.html">Destinations</a><a href="packages.html">Packages</a><a
+                href="travel-blog.html">Travel journal</a><a class="nav-cta" href="booking.html">Plan a trip <span
+                    aria-hidden="true">↗</span></a></nav>
+    </header>
+    <main>
+        <section class="page-hero">
+            <p class="eyebrow">LET'S MAKE A PLAN</p>
+            <h1>Your next story<br><em>starts here.</em></h1>
+            <p>Tell us a little about the trip you have in mind. We'll take it from there.</p>
+        </section>
+        <section class="section booking-layout">
+            <div class="booking-aside">
+                <p class="eyebrow">A FEW DETAILS</p>
+                <h2>Every good trip<br>begins with <em>a hello.</em></h2>
+                <p>Share your preferences and we'll help you find a thoughtful way to get there.</p>
+                <div class="contact-detail"><small>EMAIL</small><b>hello@wayfarer.example</b></div>
+                <div class="contact-detail"><small>RESPONSE TIME</small><b>Within 2 working days</b></div>
+            </div>
+            <form class="booking-form card-panel" id="booking-form" novalidate>
+                <div class="form-title">
+                    <h3>Trip enquiry</h3><span>* Required fields</span>
+                </div>
+                <div class="form-grid">
+                    <div class="field"><label for="full-name">Your name *</label><input id="full-name" name="name"
+                            type="text" placeholder="e.g. Aditi Sharma" required></div>
+                    <div class="field"><label for="email">Email address *</label><input id="email" name="email"
+                            type="email" placeholder="you@example.com" required></div>
+                    <div class="field"><label for="phone">Phone number *</label><input id="phone" name="phone"
+                            type="tel" placeholder="10-digit mobile number" required></div>
+                    <div class="field"><label for="destination">Destination *</label><select id="destination"
+                            name="destination" required>
+                            <option value="">Choose a destination</option>
+                            <option>Himachal Pradesh</option>
+                            <option>Goa</option>
+                            <option>Kerala</option>
+                            <option>Jaipur</option>
+                            <option>Rishikesh</option>
+                            <option>Ladakh</option>
+                        </select></div>
+                    <div class="field"><label for="travel-date">Preferred start date *</label><input id="travel-date"
+                            name="date" type="date" required></div>
+                    <div class="field"><label for="travellers">Number of travellers *</label><input id="travellers"
+                            name="travellers" type="number" min="1" max="20" value="2" required></div>
+                    <div class="field full"><label for="message">Anything else we should know?</label><textarea
+                            id="message" name="message" rows="4"
+                            placeholder="Your interests, budget or special requests..."></textarea></div>
+                </div>
+                <p class="form-error" id="booking-error" role="alert"></p><button class="button button-dark"
+                    type="submit">Send trip enquiry ↗</button>
+                <p class="form-note">Demo form for academic use. No information is sent to a server.</p>
+                <div class="success-message" id="booking-success" role="status" hidden>Thank you! Your trip enquiry has
+                    been recorded in this demo.</div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer"><a class="brand brand-footer" href="index.html"><span
+                class="brand-mark">W</span><span>wayfarer<small>TRAVEL & TOURS</small></span></a>
+        <p>Make room for somewhere new.</p>
+        <div><a href="contact.html">Contact</a><a href="booking.html">Plan a trip</a><a
+                href="travel-blog.html">Journal</a><a href="about.html">About</a></div><small>© 2026 Wayfarer Travel. A
+            student website project.</small>
+    </footer>
+</body>
+
+</html>

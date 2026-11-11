@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Packages | Wayfarer</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header"><a class="brand" href="index.html"><span
+                class="brand-mark">W</span><span>wayfarer<small>TRAVEL & TOURS</small></span></a><button
+            class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="primary-navigation"
+            aria-expanded="false">☰</button>
+        <nav class="nav" id="primary-navigation" aria-label="Main navigation"><a href="index.html">Home</a><a
+                href="destinations.html">Destinations</a><a class="active" href="packages.html">Packages</a><a
+                href="travel-blog.html">Travel journal</a><a class="nav-cta" href="booking.html">Plan a trip <span
+                    aria-hidden="true">↗</span></a></nav>
+    </header>
+    <main>
+        <section class="page-hero">
+            <p class="eyebrow">A GOOD PLACE TO START</p>
+            <h1>Plans with room<br><em>for spontaneity.</em></h1>
+            <p>Thoughtful starting points. Every trip can be shaped around the way you like to travel.</p>
+        </section>
+        <section class="section section-top">
+            <div class="package-grid">
+                <article class="package-card"><img
+                        src="https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=900&q=85"
+                        alt="Himalayan mountains">
+                    <div class="package-body"><small>5 DAYS · HIMACHAL</small>
+                        <h3>Mountain Pause</h3>
+                        <p>Small stays, scenic walks and unhurried mountain days.</p>
+                        <div class="package-price"><b>₹12,500</b><span>/ person</span></div><a class="text-link"
+                            href="booking.html">Enquire about this trip ↗</a>
+                    </div>
+                </article>
+                <article class="package-card"><img
+                        src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=900&q=85"
+                        alt="Goa beach">
+                    <div class="package-body"><small>4 DAYS · GOA</small>
+                        <h3>Coastal Calm</h3>
+                        <p>Beachside mornings, heritage walks and local flavours.</p>
+                        <div class="package-price"><b>₹9,800</b><span>/ person</span></div><a class="text-link"
+                            href="booking.html">Enquire about this trip ↗</a>
+                    </div>
+                </article>
+                <article class="package-card"><img
+                        src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=900&q=85"
+                        alt="Kerala backwaters">
+                    <div class="package-body"><small>6 DAYS · KERALA</small>
+                        <h3>Green Escape</h3>
+                        <p>Backwater stays, tea gardens and a little time offline.</p>
+                        <div class="package-price"><b>₹14,200</b><span>/ person</span></div><a class="text-link"
+                            href="booking.html">Enquire about this trip ↗</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="section calculator-section">
+            <div>
+                <p class="eyebrow">MAKE IT YOURS</p>
+                <h2>A quick trip<br><em>estimate.</em></h2>
+                <p>Get a simple estimate based on the number of travellers and nights. Final pricing may vary by season
+                    and availability.</p>
+            </div>
+            <div class="calculator card-panel"><label for="calc-package">Choose a package</label><select
+                    id="calc-package">
+                    <option value="2500">Mountain Pause · ₹2,500 / person / night</option>
+                    <option value="2200">Coastal Calm · ₹2,200 / person / night</option>
+                    <option value="2800">Green Escape · ₹2,800 / person / night</option>
+                </select>
+                <div class="calc-fields">
+                    <div><label for="calc-people">Travellers</label><input id="calc-people" type="number" min="1"
+                            max="20" value="2"></div>
+                    <div><label for="calc-nights">Nights</label><input id="calc-nights" type="number" min="1" max="30"
+                            value="3"></div>
+                </div>
+                <div class="estimate"><span>Estimated total</span><strong id="estimate-total">₹15,000</strong></div>
+                <small class="form-note">Illustrative estimate only. Taxes, transport and seasonal rates may change the
+                    final amount.</small>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"><a class="brand brand-footer" href="index.html"><span
+                class="brand-mark">W</span><span>wayfarer<small>TRAVEL & TOURS</small></span></a>
+        <p>Make room for somewhere new.</p>
+        <div><a href="contact.html">Contact</a><a href="booking.html">Plan a trip</a><a
+                href="travel-blog.html">Journal</a><a href="about.html">About</a></div><small>© 2026 Wayfarer Travel. A
+            student website project.</small>
+    </footer>
+</body>
+
+</html>
