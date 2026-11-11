@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (event.key === 'Escape') closeMenu();
     });
     window.addEventListener('resize', () => {
-      if (window.innerWidth > 680) closeMenu();
+      if (window.innerWidth > 1100) closeMenu();
     });
   }
 
